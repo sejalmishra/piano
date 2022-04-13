@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: rgb(198, 48, 48);
+    height: 100vh;
+}
+.keys{
+    display: flex;
+    border: 1px solid blue;
+    width: 55%;
+    height: 50%;
+}
+.white-key{
+    position: relative;
+    z-index: 2;
+    background-color: rgb(241, 235, 235);
+    border: 1px solid brown;
+    height: 100%;
+    width: 32%;
+}
+.key:not(.black-key){
+    float: left;
+    width: 10%;
+    height: 100%;
+}
+.black-key{
+    position: absolute;
+    background-color: rgb(11, 10, 10);
+    border: 1px solid orange;
+    height: 40%;
+    width: 4%;
+    top: 8;
+    z-index: 3;
+}
+.key[data-key="87"]{
+    left: 4%;
+}
+.key[data-key="69"] {
+      left: 10%;
+    }
+
+    .key[data-key="84"]  {
+      left: 20%;
+    }
+
+    .key[data-key="89"] {
+      left: 26%;
+    }
+
+    .key[data-key="85"] {
+      left: 32%;    
+    }
+
+    .key[data-key="79"] {
+      left: 42%;    
+    }
+
+    .key[data-key="80"] {
+      left: 48%;    
+    }

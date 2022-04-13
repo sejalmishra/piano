@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Piano</h1>
+    <h3>Play Using your keyboard.Hover for hints</h3>
+    <div class="note"></div>
+    <div class="keys">
+        <div data-key="65" class="key white-key" data-note="C#"><span class="letternote">A</span></div>
+        <div data-key="87" class="key black-key" data-note="C"><span class="letternote">W</span></div>
+        <div data-key="83" class="key white-key" data-note="D"><span class="letternote">S</span></div>
+        <div data-key="69" class="key black-key" data-note="D#"><span class="letternote">E</span></div>
+        <div data-key="68" class="key white-key" data-note="E"><span class="letternote">D</span></div>
+        <div data-key="70" class="key white-key" data-note="F"><span class="letternote">F</span></div>
+        <div data-key="84" class="key black-key" data-note="F#"><span class="letternote">T</span></div>
+        <div data-key="71" class="key white-key" data-note="G"><span class="letternote">G</span></div>
+        <div data-key="89" class="key black-key" data-note="G#"><span class="letternote">Y</span></div>
+        <div data-key="72" class="key white-key" data-note="A"><span class="letternote">H</span></div>
+        <div data-key="85" class="key black-key" data-note="A#"><span class="letternote">U</span></div>
+        <div data-key="74" class="key white-key" data-note="B"><span class="letternote">J</span></div>
+        <div data-key="75" class="key white-key" data-note="C"><span class="letternote">K</span></div>
+        <div data-key="79" class="key black-key" data-note="C#"><span class="letternote">O</span></div>
+        <div data-key="76" class="key white-key" data-note="D"><span class="letternote">L</span></div>
+        <div data-key="80" class="key black-key" data-note="D#"><span class="letternote">P</span></div>
+        <div data-key="186" class="key white-key" data-note="E"><span class="letternote">;</span></div>
+    </div>
+    <audio data-key="65" src="http://carolinegabriel.com/demo/js-keyboard/sounds/040.wav"></audio>
+    <audio data-key="87" src="http://carolinegabriel.com/demo/js-keyboard/sounds/041.wav"></audio>
+    <audio data-key="83" src="http://carolinegabriel.com/demo/js-keyboard/sounds/042.wav"></audio>
+    <audio data-key="69" src="http://carolinegabriel.com/demo/js-keyboard/sounds/043.wav"></audio>
+    <audio data-key="68" src="http://carolinegabriel.com/demo/js-keyboard/sounds/044.wav"></audio>
+    <audio data-key="70" src="http://carolinegabriel.com/demo/js-keyboard/sounds/045.wav"></audio>
+    <audio data-key="84" src="http://carolinegabriel.com/demo/js-keyboard/sounds/046.wav"></audio>
+    <audio data-key="71" src="http://carolinegabriel.com/demo/js-keyboard/sounds/047.wav"></audio>
+    <audio data-key="89" src="http://carolinegabriel.com/demo/js-keyboard/sounds/048.wav"></audio>
+    <audio data-key="72" src="http://carolinegabriel.com/demo/js-keyboard/sounds/049.wav"></audio>
+    <audio data-key="85" src="http://carolinegabriel.com/demo/js-keyboard/sounds/050.wav"></audio>
+    <audio data-key="74" src="http://carolinegabriel.com/demo/js-keyboard/sounds/051.wav"></audio>
+    <audio data-key="75" src="http://carolinegabriel.com/demo/js-keyboard/sounds/052.wav"></audio>
+    <audio data-key="79" src="http://carolinegabriel.com/demo/js-keyboard/sounds/053.wav"></audio>
+    <audio data-key="76" src="http://carolinegabriel.com/demo/js-keyboard/sounds/054.wav"></audio>
+    <audio data-key="80" src="http://carolinegabriel.com/demo/js-keyboard/sounds/055.wav"></audio>
+    <audio data-key="186" src="http://carolinegabriel.com/demo/js-keyboard/sounds/056.wav"></audio>
+    <video autoplay muted loop id="myvideo">
+        <source src="http://carolinegabriel.com/demo/js-keyboard/video/bg.mp4" type="video/mp4">
+    </video>
+    <script src="main.js"></script>
+</body>
+</html>
